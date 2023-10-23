@@ -1,6 +1,7 @@
 import { Header } from '@components/Header';
 import { Highlight } from '@components/Highlight';
 import { GroupCard } from '@components/GroupCard';
+import { Button } from '@components/Button';
 import { Container } from './styles';
 import { useState } from 'react';
 import { FlatList } from 'react-native';
@@ -31,6 +32,10 @@ export function Groups() {
 
 
             />
+
+            <Button 
+            title='Criar nova turma'
+             />
 
         </Container>
     );
